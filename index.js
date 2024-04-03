@@ -40,7 +40,7 @@ const fetchData = async (req, res, next, baseUrl) => {
       const data = await asset.arrayBuffer()
       res.end(Buffer.from(data))
     } else {
-      next()
+      next() // jktjhklfgjhk;jkdjgf;kj;hj
     }
   } catch (error) {
     console.error('Error fetching:', error)
